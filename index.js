@@ -39,7 +39,7 @@ mf.comp.FdConts = class extends Split {
 	    this.switch2(
 	        new Text({
 		    effect: [
-		        new Fade({ eid:0, value:true, tag: "FdConts" }),
+		        new Fade({ eid:0, value:true, tag: "FdConts", delay:200 }),
 			new Fade({ eid:1, value:false, tag: "FdConts" }),
                     ],
 		    style: {
